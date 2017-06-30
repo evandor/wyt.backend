@@ -2,11 +2,11 @@ Bundle-Name: WYT :: backend
 
 Bundle-Version: 0.1.0.${tstamp}
 
-Import-Package: \
-    io.skysail.api.weaving,\
-    *
+#Import-Package: \
+#    io.skysail.api.weaving,\
+#    *
     
--includeresource: OSGI-OPT/src=src/,resources
+#-includeresource: OSGI-OPT/src=src/,resources
     
 #Require-Capability: io.skysail.api.um
 
@@ -44,6 +44,5 @@ Import-Package: \
 
 
 #Bundle-Activator: io.skysail.core.akka.Activator3
-Bundle-Activator: wyt.backend.Activator
+#Bundle-Activator: wyt.backend.Activator
 
-Private-Package: wyt.backend
