@@ -6,7 +6,6 @@ import com.typesafe.config.Config
 import domino.DominoActivator
 import domino.capsule.Capsule
 import org.osgi.framework.BundleContext
-import io.skysail.core.app.ApplicationRoutesProvider
 import akka.actor.ActorSystem
 import akka.http.scaladsl.server.Route
 import akka.http.scaladsl.Http
