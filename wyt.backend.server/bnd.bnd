@@ -1,8 +1,8 @@
-Bundle-Name: WYT :: backend :: poc
+Bundle-Name: WYT :: backend :: server
 
 Bundle-Version: 0.1.0.${tstamp}
 
-Bundle-Activator: wyt.backend.poc.impl.Activator
+Bundle-Activator: wyt.backend.server.impl.Activator
 
 #Import-Package: \
 #    io.skysail.api.weaving,\
@@ -18,11 +18,7 @@ Bundle-Activator: wyt.backend.poc.impl.Activator
 	${osgi},\
 	${logging},\
 	domino_2.11;version=1.1,\
-	${akka-compiletime},\
-    io.spray.json;version=1.3,\
-	wyt.backend.server;version=latest
-	
-#	,\
+	${akka-compiletime}
 	
 
 #	skysail.core;version=latest,\
@@ -30,6 +26,7 @@ Bundle-Activator: wyt.backend.poc.impl.Activator
 #	org.scalactic;version=3.0,\
 #	org.scala-lang.modules.scala-xml;version=1.0,\
 #	org.assertj.core;version=3.5,\
+#	io.spray.json;version=1.3,\
 #	io.skysail.bundled.scalaj-http_2.11;version=latest,\
 #	io.skysail.bundled.json4s_2.11-3.5.1;version=3.5,\
 #	io.skysail.bundled.scalapact-scalatest_2.11;version=2.1,\
@@ -47,6 +44,5 @@ Bundle-Activator: wyt.backend.poc.impl.Activator
 
 
 
-Private-Package: \
-	wyt.backend.poc.impl,\
-	wyt.backend.poc
+Private-Package: wyt.backend.server.impl
+Export-Package: wyt.backend.server

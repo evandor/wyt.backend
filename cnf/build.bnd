@@ -1,6 +1,11 @@
 
+
 osgi.version                                       '[6.0.0,6.0.1)'
 osgi.annotation.version                            '[6.0.1,6.0.2)'
+
+org.apache.felix.framework.version                 '[5.4,6)'
+org.apache.felix.scr.version                       '[2.0.2, 2.0.3)'
+
 akka.version                                       '[2.5,2.6)'
 
 # Configure Repositories
