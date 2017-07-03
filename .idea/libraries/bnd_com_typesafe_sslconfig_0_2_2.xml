@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="bnd:com.typesafe.sslconfig:0.2.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.bnd/cache/https%3A%2F%2Fgithub.com%2Fevandor%2Fskysail-repository%2Fraw%2Fmaster%2Frelease/ssl-config-core_2.11-0.2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

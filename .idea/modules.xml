@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cnf/cnf.iml" filepath="$PROJECT_DIR$/.idea/modules/cnf/cnf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wyt.backend.iml" filepath="$PROJECT_DIR$/wyt.backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wyt.backend.poc/wyt.backend.poc.iml" filepath="$PROJECT_DIR$/wyt.backend.poc/wyt.backend.poc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wyt.backend.server/wyt.backend.server.iml" filepath="$PROJECT_DIR$/wyt.backend.server/wyt.backend.server.iml" />
+    </modules>
+  </component>
+</project>

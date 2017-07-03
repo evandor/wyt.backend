@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":wyt.backend.poc" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$/.." external.system.id="GRADLE" external.system.module.group="wyt.backend" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Osmorc" name="OSGi">
+      <configuration manifestGenerationMode="Bnd" manifestLocation="" jarfileLocation="$MODULE_DIR$/generated/wyt.backend.poc.jar" outputPathType="SpecificOutputPath" bndFileLocation="bnd.bnd" bundlorFileLocation="" bundleActivator="" bundleSymbolicName="" bundleVersion="1.0.0" ignoreFilePattern="" useProjectDefaultManifestFileLocation="true" alwaysRebuildBundleJAR="false" doNotSynchronizeWithMaven="true">
+        <additionalProperties />
+        <additionalJARContents />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/generated/classes/main" />
+    <output-test url="file://$MODULE_DIR$/generated/classes/test" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/generated" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="wyt.backend.server" />
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/bin_test" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/bin" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: wyt.backend.server">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../wyt.backend.server/generated/wyt.backend.server.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: spray-json_2.11-1.3.3">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.bnd/cache/https%3A%2F%2Fgithub.com%2Fevandor%2Fskysail-repository%2Fraw%2Fmaster%2Frelease/spray-json_2.11-1.3.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: org.scala-lang.modules.scala-parser-combinators-1.0.6">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.bnd/cache/https%3A%2F%2Fgithub.com%2Fevandor%2Fskysail-repository%2Fraw%2Fmaster%2Frelease/org.scala-lang.modules.scala-parser-combinators-1.0.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: akka-parsing_2.11-10.0.7">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.bnd/cache/https%3A%2F%2Fgithub.com%2Fevandor%2Fskysail-repository%2Fraw%2Fmaster%2Frelease/akka-parsing_2.11-10.0.7.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: ssl-config-core_2.11-0.2.2">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.bnd/cache/https%3A%2F%2Fgithub.com%2Fevandor%2Fskysail-repository%2Fraw%2Fmaster%2Frelease/ssl-config-core_2.11-0.2.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: scala-java8-compat_2.11-0.8.0">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.bnd/cache/https%3A%2F%2Fgithub.com%2Fevandor%2Fskysail-repository%2Fraw%2Fmaster%2Frelease/scala-java8-compat_2.11-0.8.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: org.reactivestreams.reactive-streams-1.0.0">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.bnd/cache/https%3A%2F%2Fgithub.com%2Fevandor%2Fskysail-repository%2Fraw%2Fmaster%2Frelease/org.reactivestreams.reactive-streams-1.0.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: config-1.3.1">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.bnd/cache/https%3A%2F%2Fgithub.com%2Fevandor%2Fskysail-repository%2Fraw%2Fmaster%2Frelease/config-1.3.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: akka-http-spray-json_2.11-10.0.7">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.bnd/cache/https%3A%2F%2Fgithub.com%2Fevandor%2Fskysail-repository%2Fraw%2Fmaster%2Frelease/akka-http-spray-json_2.11-10.0.7.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: akka-http-core_2.11-10.0.7">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.bnd/cache/https%3A%2F%2Fgithub.com%2Fevandor%2Fskysail-repository%2Fraw%2Fmaster%2Frelease/akka-http-core_2.11-10.0.7.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: akka-http_2.11-10.0.7">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.bnd/cache/https%3A%2F%2Fgithub.com%2Fevandor%2Fskysail-repository%2Fraw%2Fmaster%2Frelease/akka-http_2.11-10.0.7.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: akka-stream_2.11-2.5.3">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.bnd/cache/https%3A%2F%2Fgithub.com%2Fevandor%2Fskysail-repository%2Fraw%2Fmaster%2Frelease/akka-stream_2.11-2.5.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: akka-actor_2.11-2.5.3">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.bnd/cache/https%3A%2F%2Fgithub.com%2Fevandor%2Fskysail-repository%2Fraw%2Fmaster%2Frelease/akka-actor_2.11-2.5.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: akka-osgi_2.11-2.5.3">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.bnd/cache/https%3A%2F%2Fgithub.com%2Fevandor%2Fskysail-repository%2Fraw%2Fmaster%2Frelease/akka-osgi_2.11-2.5.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: domino_2.11-1.1.2">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.bnd/cache/https%3A%2F%2Fgithub.com%2Fevandor%2Fskysail-repository%2Fraw%2Fmaster%2Frelease/domino_2.11-1.1.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: org.jboss.logging.jboss-logging-3.1.4">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.bnd/cache/https%3A%2F%2Fgithub.com%2Fevandor%2Fskysail-repository%2Fraw%2Fmaster%2Frelease/org.jboss.logging.jboss-logging-3.1.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: slf4j-api-1.7.21">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.bnd/cache/https%3A%2F%2Fgithub.com%2Fevandor%2Fskysail-repository%2Fraw%2Fmaster%2Frelease/slf4j-api-1.7.21.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: ch.qos.logback.core-1.1.9">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.bnd/cache/https%3A%2F%2Fgithub.com%2Fevandor%2Fskysail-repository%2Fraw%2Fmaster%2Frelease/ch.qos.logback.core-1.1.9.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: ch.qos.logback.classic-1.1.9">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.bnd/cache/https%3A%2F%2Fgithub.com%2Fevandor%2Fskysail-repository%2Fraw%2Fmaster%2Frelease/ch.qos.logback.classic-1.1.9.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: org.osgi.service.component-1.3.0">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.bnd/cache/https%3A%2F%2Fgithub.com%2Fevandor%2Fskysail-repository%2Fraw%2Fmaster%2Frelease/org.osgi.service.component-1.3.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: osgi.cmpn-6.0.0.201505202027">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.bnd/shacache/shas/A3A5269424E5EA6488D30DEDCE8FABCA11EFBC3D/osgi.cmpn-6.0.0.201505202027.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: osgi.annotation-6.0.1.201503162037">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.bnd/shacache/shas/6373CFB25C743448FD1DD9139A2D085B33CAE737/osgi.annotation-6.0.1.201503162037.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: org.osgi.util.promise-1.0.0">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.bnd/cache/https%3A%2F%2Fgithub.com%2Fevandor%2Fskysail-repository%2Fraw%2Fmaster%2Frelease/org.osgi.util.promise-1.0.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: org.osgi.util.function-1.0.0">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.bnd/cache/https%3A%2F%2Fgithub.com%2Fevandor%2Fskysail-repository%2Fraw%2Fmaster%2Frelease/org.osgi.util.function-1.0.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: osgi.core-6.0.0.201403061837">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.bnd/shacache/shas/0C49ACDC9AC62CF69EE49CB6F1905B4FDB79EA5C/osgi.core-6.0.0.201403061837.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="Gradle: org.scala-lang:scala-reflect:2.11.8" level="project" />
+    <orderEntry type="library" name="Gradle: org.scala-lang:scala-library:2.11.8" level="project" />
+  </component>
+</module>

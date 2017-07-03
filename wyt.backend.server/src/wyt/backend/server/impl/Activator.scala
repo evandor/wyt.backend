@@ -6,18 +6,13 @@ import domino.capsule.Capsule
 import org.osgi.framework.BundleContext
 import akka.actor.ActorSystem
 import akka.http.scaladsl.server.Route
-import akka.http.scaladsl.Http
-import akka.stream.ActorMaterializer
 import scala.concurrent.Future
 import domino.service_watching.ServiceWatcherEvent._
 import akka.http.scaladsl.Http
-import akka.http.scaladsl.model.HttpMethods._
-import akka.http.scaladsl.model._
 import akka.stream.ActorMaterializer
 import akka.http.scaladsl.server.Directives._
 import org.slf4j.LoggerFactory
 import akka.http.scaladsl.server.RouteResult.route2HandlerFlow
-import scala.reflect.runtime.universe
 import wyt.backend.server.ApplicationRoutesProvider
 
 class Activator extends DominoActivator {
@@ -34,7 +29,7 @@ class Activator extends DominoActivator {
     override def stop(): Unit = stop(bundleContext)
 
     def configure(osgiContext: BundleContext, system: ActorSystem): Unit = {
-      log info "Registering Actor System as Service."
+      log info "Registering Actor System as Service!!"
       registerService(osgiContext, system)
       log info s"ActorSystem [${system.name}] initialized."
       theSystem = system
