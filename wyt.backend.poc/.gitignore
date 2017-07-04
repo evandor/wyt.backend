@@ -6,3 +6,6 @@
 /bin_test/
 /skysail.core.iml
 /wyt.backend.poc.iml
+/.classpath
+/.project
+/.settings/

@@ -7,10 +7,6 @@
 	<classpathentry kind="lib" path="cnf/cache/3.3.0/bnd-cache/biz.aQute.launcher/biz.aQute.launcher-3.3.0.jar"/>
 	<classpathentry kind="lib" path="cnf/cache/3.3.0/bnd-cache/biz.aQute.remote.launcher/biz.aQute.remote.launcher-3.3.0.jar"/>
 	<classpathentry kind="lib" path="cnf/cache/3.3.0/bnd-cache/biz.aQute.tester/biz.aQute.tester-3.3.0.jar"/>
-	<classpathentry kind="lib" path="cnf/templates/org.bndtools.templates.osgi/org.bndtools.templates.osgi-3.2.0.jar"/>
-	<classpathentry kind="lib" path="test/generated/test.jar"/>
-	<classpathentry kind="lib" path="testapi/generated/testapi.jar"/>
-	<classpathentry kind="lib" path="wyt.backend/generated/wyt.backend.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="testapi/bin"/>
 </classpath>
