@@ -19,6 +19,9 @@ Bundle-Activator: wyt.backend.server.impl.Activator
 	${logging},\
 	domino_2.11;version=1.1,\
 	${akka-compiletime},\
+	${akka-test},\
+    org.scalatest;version=3.0,\
+    org.scalactic;version=3.0,\
     io.spray.json;version=1.3
 	
 
