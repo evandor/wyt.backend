@@ -9,8 +9,8 @@
 -runsystempackages: ${runsystempackages}
 -runtrace: false
 -runproperties: ${runproperties},\
-    org.osgi.framework.bootdelegation=sun.misc
-#    config.file=C:\\tmp\\application.conf
+    org.osgi.framework.bootdelegation=sun.misc,\
+    config.file=config/application.conf
 
 -runbundles: \
     osgi.enterprise;version=5.0,\
